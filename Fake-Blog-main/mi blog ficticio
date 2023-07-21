@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fake blog</title>
+        <meta name="description" content="Bienvenido a Mi Pequeño Blog">
+    </head>
+    <body>
+        <div id="header">
+            <h1>MI BLOG</h1>
+            <h2>Hola, me llamo Romina Carbajal y te invito a conocerme un poco!</h2>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de mi</a></li>
+                    <li><a href="#">Encuesta</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <img src="1.jpeg" alt="imagen mia" >
+
+        <p>Me considero una chica divertida, optimista y con ganas de vivir la vida. Tengo 18 años, vivo en Canelones, Uruguay y soy estudiante de Forge.</p>
+
+        <h3>Mis gustos musicales</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Géneros</th>
+                    <th>Preferencias</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pop</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>Plena</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Rock Nacional</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>Tango</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Reggaeton</td>
+                    <td>Sí</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4>Mis mascotas</h4>
+            <div>
+                <img src="floki.jpeg" alt="imagen gato floki" >
+                <ul>
+                    <li>Floki</li>
+                </ul>
+                <img src="violeta.jpeg" alt="imagen gata violeta" >
+                <ul>
+                    <li>Violeta</li>
+                </ul>
+            </div> 
+
+        <form>
+            <h5>Por favor, contesta esta breve encuesta:</h5>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+
+            <br>
+            <label>
+                <input type="radio" name="correo" value="si">
+                Sí, envíame un montón de correos.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="correo" value="no">
+                No por favor, no me mandes ningun correos.
+            </label>
+            <br>
+
+            <a>¿Qué gato te gustó más?</a>
+            <select name="mascota">
+                <option value="gato">Floki</option>
+                <option value="gata">Violeta</option>
+            </select>
+                        
+            <p>¿Cómo supiste de mi?</p>
+            <input type="checkbox" id="codingDojo" name="codingDojo" value="si">
+            <label for="codingDojo">Coding Dojo</label>
+            <input type="checkbox" id="contacto" name="contacto" value="si">
+            <label for="contacto">Un contacto</label>
+            <input type="checkbox" id="otro" name="otro" value="si">
+            <label for="otro">Otro</label>
+            <br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
